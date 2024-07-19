@@ -1,5 +1,7 @@
 # vue-assignment
 
+First of all, thank you for this opportunity. In the project, I tried to create an appointment system using Airtable APIs with the design you provided. Due to the 403 error I received in the create and update APIs, new records and record updates are currently not active.
+
 ## Project setup
 ```
 yarn install
