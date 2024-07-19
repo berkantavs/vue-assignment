@@ -1,0 +1,186 @@
+.filter-area {
+  padding-bottom: 25px;
+  border-bottom: 2px solid #cecece;
+}
+
+.agent-avatar-item {
+  border: 3px solid #fff !important;
+}
+
+.avatar-container {
+  display: flex;
+
+}
+
+.appointment-item .avatar-container {
+  align-items: center !important;
+  position: relative !important;
+  justify-content: center !important;
+}
+
+.avatar-wrapper {
+  position: relative;
+  margin-left: -10px;
+  /* Avatars will overlap by 10px */
+}
+
+.avatar-wrapper:first-child {
+  margin-left: 0;
+  /* The first avatar has no left margin */
+}
+
+.status-select-box-area select {
+  height: 40px;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #cecece;
+  font-size: 13px;
+}
+
+.vdpComponent {
+  width: 100%;
+}
+
+input {
+  height: 40px;
+  line-height: 40px;
+  font-size: 13px;
+  padding: 4px;
+  border: 1px solid #cecece;
+  width: 100%;
+  border-radius: 8px;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.search-input-area button,
+.contact-search button {
+  border-radius: 0px 8px 8px 0px;
+  height: 40px;
+  line-height: 10px;
+}
+
+.create-area {
+  border-bottom: 1px solid #cecece;
+}
+
+.btn-primary {
+  background-color: #ec1f80 !important;
+  outline: none !important;
+  box-shadow: none;
+  border: none !important;
+  height: 40px;
+}
+
+.btn-primary:hover {
+  background-color: #ec1f80 !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.bg-primary {
+  background-color: #ec1f80 !important;
+}
+
+.appointment-item {
+  border-radius: 15px;
+  border: 1px solid #cecece;
+  padding: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.grey-background {
+  background-color: #f0f5f5;
+}
+
+.white-background {
+  background-color: #ffffff;
+}
+
+.appointment_address_container {
+  display: flex;
+  align-items: center;
+}
+
+.appointment-status-box {
+  height: 40px;
+  border-radius: 8px;
+  width: 100%;
+  padding: 8px;
+  color: white;
+}
+
+.appointment-status-box .status-area {
+  background-color: white;
+  border-radius: 8px;
+  color: black !important;
+  font-size: 13px;
+  padding: 3px;
+}
+
+.form-label {
+  position: absolute;
+  top: -8px;
+  z-index: 1;
+  font-size: 12px;
+  background: white;
+  left: 11px;
+}
+
+.pagination .page-item {
+  margin-right: 10px;
+}
+
+.pagination .page-item.active .page-link {
+  background: none !important;
+  color: #ec1f80;
+  border: 1px solid #ec1f80 !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.pagination .page-item .page-link {
+  border-radius: 10px;
+  border: 1px solid #cecece;
+  background: #f1f1f1;
+  color: #707070;
+}
+
+.pagination .page-item.disabled .page-link {
+  background-color: #cfcfcf;
+}
+
+.appointment-modal .modal-header {
+  display: block;
+}
+
+.appointment-modal .modal-content {
+  background: #f0f5f5 !important;
+}
+
+.search-results {
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.contact-info-area {
+  background-color: white;
+  border: 1px solid #cecece;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.search-results .search-list-item {
+  background-color: white;
+  padding: 5px;
+  border-bottom: 1px #cecece;
+  margin-bottom: 3px;
+  border-radius: 8px;
+  cursor: pointer;
+}
